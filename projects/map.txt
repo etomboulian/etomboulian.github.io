@@ -1,9 +1,0 @@
-.
-\├\─\─\ evan.tomboulian.ca 	# Main personal portfolio site for vhost evan
-\│   ├── css		
-│   └── images
-└── pihole		# Pihole Admin console (restricted to internal network connections only)
-    └── admin
-        ├── img
-        ├── scripts
-        └── style
