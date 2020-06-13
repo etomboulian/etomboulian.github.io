@@ -1,0 +1,72 @@
+
+.col-12
+{
+	padding-top: 2em;
+}
+
+.table
+{
+	display: grid;
+	grid-template-columns: 0.5fr 3fr 4fr 1.5fr 0.25fr;
+	grid-template-rows: 2fr;
+	grid-gap: 1.25em;
+	align-items:center;
+}
+
+
+.middle 
+{
+	text-align:center;
+}
+
+
+
+.disabled {
+	display:none;
+}
+
+
+.item {
+	margin-top:1em;
+}
+
+.table-row
+{
+	border-top:1px solid #dee2e6;
+}
+
+
+
+.first-row
+{
+	border-top:none;
+}
+
+.arrow
+{
+	cursor:pointer;
+}
+
+
+.thumbnail
+{
+	height: 50px;
+	width: 50px;
+}
+
+
+.itemDetails 
+{
+	display: grid;
+	grid-template-columns: 1fr 0.25fr 1fr;
+	padding-left: 5em;
+	
+}
+
+@media screen and (max-width:900px) {
+	
+	.itemDetails {
+		grid-template-columns: 1fr;
+		padding-left: 15%;
+	}
+}
