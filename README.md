@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <h2> Evan's Home Page </h2>
   
   <p> A simple home page partially derived from a template found here on GitHub </p>
